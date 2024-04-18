@@ -1,0 +1,26 @@
+.services {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px 20px;
+}
+.servcies-head{
+    display: grid;
+    grid-template-columns: .2fr 1.8fr;
+    background-color: rgb(103, 144, 158);
+    margin: 10px 10 0px;
+}
+.services-head-logo img{
+    width: 150px;
+    height: 150px;
+}
+h1{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h4{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 50px 0 50px;
+}
