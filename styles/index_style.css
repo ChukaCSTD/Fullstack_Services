@@ -42,8 +42,51 @@ hr{
 .confucius{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 5px;
+    /* gap: 10px; */
     width: 70%;
     margin: auto;
     height: 60px;
+    color: white;
+}
+
+.confucius_service{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* gap: 10px; */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    height: 60px;
+    color: black;   
+}
+
+.service-grid{
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.cleaning_img{
+    background-image: url(../images/full-shot-man-cleaning-doorknob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-grid-row{
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+    margin-left: 20%;
+}
+
+.metro{
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 300px;
 }
