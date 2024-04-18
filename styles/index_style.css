@@ -15,8 +15,35 @@
     width: auto;
     height: 500px;
     text-align: center;
+    color: white;
+    text-shadow: dodgerblue;
+    padding: 200px 0px 0px 0px;
 }
 
 .text_overlay h2{
-    padding: 200px 0px 0px 0px;
+    font-size: 70px;
+    text-shadow: 0 0 3px dodgerblue;
+    margin: 0;
+}
+
+.text_overlay p{
+    font-size: 35px;
+    text-shadow: 0 0 3px dodgerblue;
+}
+
+hr{
+    width: 80%;
+    height: 5px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+}
+
+.confucius{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    width: 70%;
+    margin: auto;
+    height: 60px;
 }
