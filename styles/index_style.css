@@ -24,3 +24,83 @@ h4{
     text-align: center;
     padding: 10px 50px 0 50px;
 }
+.services-plumbing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    margin: 20px 20px;
+    gap: 10px;
+}
+.services-plumbing-image{
+    background-image: url("../images/plumber2.jpg");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    border-radius: 0 25px 25px 0;
+}
+.services-plumbing-text{
+    background-color: rgb(55, 109, 128);
+    border-radius: 25px 0 0 25px;
+}
+h2{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services-plumbing-text h2{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+}
+.services-plumbing-text a{
+    color: antiquewhite;
+}
+.services-plumbing-text a:hover{
+    text-decoration: solid;
+    background-color: rgb(7, 18, 32);
+    color: antiquewhite;
+}
+.services-plumbing-text h4{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+}
+.services-electrical{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 400px;
+    gap: 10px;
+    margin: 20px 20px;
+}
+.services-electrical-text{
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(100, 132, 143);
+}
+.services-electrical-text h2{
+    color: whitesmoke;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+}
+.services-electrical-text h4{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 20px;
+}
+.services-electrical-text a{
+    color: antiquewhite;
+}
+.services-electrical-text a:hover{
+    text-decoration: solid;
+    background-color: rgb(7, 18, 32);
+    color: antiquewhite;
+}
+
+.services-electrical-image{
+    background-image: url("../images/electric.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+    border-radius: 25px 0 0 25px;  
+}
