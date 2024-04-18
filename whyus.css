@@ -12,7 +12,7 @@
     
 }
 .free{
-    background-image: url(../images/pexels-pixabay-209230.jpg);
+    background-image: url(../images/istockphoto-1204813771-612x612.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -22,4 +22,21 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    font-style: verdana;
+    font-size: 35px;
+    color: rgb(91, 91, 243);
+}
+.writeups{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(130, 130, 206);
+}
+.writeups2{
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(130, 130, 206);
 }
