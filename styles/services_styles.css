@@ -211,6 +211,9 @@ footer{
 }
 
 footer hr{
+  height: 5px;
+  margin: auto;
+  border-radius: 5px;
   width: 80%;
   border: none;
   background-color: white;
