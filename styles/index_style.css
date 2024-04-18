@@ -87,6 +87,27 @@ hr{
 
 .metro{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     height: 300px;
+    width: 70%;
+    margin: auto;
+}
+
+.metro_img{
+    background-image: url(../images/young-woman-with-rubber-gloves-showing-smartphone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+}
+
+.metro_qr{
+    background-image: url(../images/scanme.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
